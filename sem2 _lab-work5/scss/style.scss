@@ -1,0 +1,45 @@
+@import "fonts";
+@import "vars";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $background_color_light;
+  font-family: Montserrat, sans-serif;
+  min-width: 320px;
+}
+
+.intro{
+  //align-content: center;
+  background-image: url("../images/cover_desktop.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+}
+.nav__user-actions{
+  display: flex;
+  justify-content: space-between;
+  height: 24px;
+  width: 128px;
+}
+.user-actions__item{
+  display: inline-block;
+}
+
+.item__button{
+  border: none;
+  background: transparent;
+}
+.button__image{
+
+}
+
